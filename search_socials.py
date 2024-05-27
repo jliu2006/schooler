@@ -24,7 +24,10 @@ def google_search(query):
             print("Failed to parse response as JSON")
         return None
 
-query = "Hope Technology School" + " facebook"
+location = str(input("school name: ")) # ex. Hope Technology School
+domain = str(input("social media website name (ex. facebook, instagram): ")) # ex. Facebook
+
+query = location + " " + domain
 results = google_search(query)
 
 if results:
@@ -33,6 +36,7 @@ if results:
     if not search_items:
         print("No search results found.")
     else:
+        print("Results found for " + query)
         search_results = [{"title": item["title"], "link": item["link"]} for item in search_items]
 
         # Save to JSON
@@ -41,5 +45,8 @@ if results:
             json.dump(search_results, file, indent=4)
 
         print("Search results saved to google_search_results.json")
+
+        with open(file_path, "r") as file:
+            print(file.read())
 else:
     print("Failed to retrieve search results.")

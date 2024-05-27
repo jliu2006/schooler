@@ -33,15 +33,16 @@ def find_schools_osm(latitude, longitude, radius):
 
     return schools
 
-address = "1600 Amphitheatre Parkway, Mountain View, CA"
+address = str(input("address (street number, street name, city, state abbreviation): "))
+# ex. 1600 Amphitheatre Parkway. Mountain View, CA
 location = geolocator.geocode(address)
 if location:
     latitude, longitude = location.latitude, location.longitude
-    radius = 5000  # 5 km
+    radius = int(input("search radius (in meters): ")) # 5 km
 
     schools = find_schools_osm(latitude, longitude, radius)
 
-    # Save to JSON
+    # save to json
     file_path = "school_results.json"
     with open(file_path, "w") as file:
         json.dump(schools, file, indent=4, default=str)  # Use default=str to handle Decimals
