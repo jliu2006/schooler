@@ -1,0 +1,80 @@
+[
+    {
+        "name": "De Anza School",
+        "latitude": 37.4349393,
+        "longitude": -122.1171855,
+        "address": "N/A"
+    },
+    {
+        "name": "Miramonte School",
+        "latitude": 37.3971625,
+        "longitude": -122.0871846,
+        "address": "N/A"
+    },
+    {
+        "name": "Our Lady of the Rosary School",
+        "latitude": 37.4268839,
+        "longitude": -122.1232968,
+        "address": "N/A"
+    },
+    {
+        "name": "Portola School",
+        "latitude": 37.3943847,
+        "longitude": -122.1102408,
+        "address": "N/A"
+    },
+    {
+        "name": "Western Montessori",
+        "latitude": 37.3851261,
+        "longitude": -122.0620873,
+        "address": "N/A"
+    },
+    {
+        "name": "GanTorah Preschool",
+        "latitude": 37.395919,
+        "longitude": -122.0994592,
+        "address": "N/A"
+    },
+    {
+        "name": "Art School of San Francisco Bay",
+        "latitude": 37.4141289,
+        "longitude": -122.0932908,
+        "address": "N/A"
+    },
+    {
+        "name": "International School of the Peninsula",
+        "latitude": 37.4263652,
+        "longitude": -122.1231251,
+        "address": "N/A"
+    },
+    {
+        "name": "Sequoia Academy",
+        "latitude": 37.4202223,
+        "longitude": -122.1015146,
+        "address": "N/A"
+    },
+    {
+        "name": "Young Builders",
+        "latitude": 37.4333995,
+        "longitude": -122.1290282,
+        "address": "N/A"
+    },
+    {
+        "name": "School for Independant Learning",
+        "latitude": 37.3994044,
+        "longitude": -122.1140423,
+        "address": "N/A"
+    },
+    {
+        "name": "Hope Technology School",
+        "latitude": 37.4474561,
+        "longitude": -122.1178996,
+        "address": "N/A"
+    },
+    {
+        "name": "Khan Lab School",
+        "latitude": 37.3965202,
+        "longitude": -122.0839951,
+        "address": "N/A"
+    }
+]

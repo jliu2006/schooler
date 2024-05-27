@@ -24,7 +24,7 @@ def google_search(query):
             print("Failed to parse response as JSON")
         return None
 
-query = "Python programming tutorials"
+query = "Hope Technology School" + " facebook"
 results = google_search(query)
 
 if results:
